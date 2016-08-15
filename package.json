@@ -1,0 +1,28 @@
+{
+  "name": "react-native-staticmap",
+  "version": "0.1.1",
+  "description": "React Native Staticmap from Google and Yandex maps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:harabchuk/react-native-staticmap.git"
+  },
+  "keywords": [
+    "react",
+    "react-native",
+    "react-component",
+    "google maps",
+    "yandex maps",
+    "ios",
+    "android"
+  ],
+  "author": "harabchuk <aliaksei.harabchuk@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/harabchuk/react-native-staticmap/issues"
+  },
+  "homepage": "https://github.com/harabchuk/react-native-staticmap"
+}
