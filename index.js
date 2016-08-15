@@ -52,7 +52,7 @@ export default class YandexMapStatic extends Component {
     if(p.markCenter){
       url+='&pt='+p.lon+','+p.lat+',pm2rdl';
     }
-
+    url = 'https://static-maps.yandex.ru/1.x/?ll=37.620070,55.753630&size=450,450&spn=0.01,0.01&l=sat&pt=37.620070,55.753630,pmwtm1~37.64,55.76363,pmwtm99&key=';
     return (
       <Image source={{uri:url}} style={{flex:1, height:p.height, resizeMode: 'cover'}} />
     )
