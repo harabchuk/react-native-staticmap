@@ -4,14 +4,14 @@ import { View, StyleSheet, Image } from 'react-native'
 export default class YandexMapStatic extends Component {
 
   static propTypes = {
-    lat: PropTypes.float,
-    lon: PropTypes.float,
-    latDelta: PropTypes.float,
-    lonDelta: PropTypes.float,
+    lat: PropTypes.any,
+    lon: PropTypes.any,
+    latDelta: PropTypes.any,
+    lonDelta: PropTypes.any,
     mapType: PropTypes.oneOf(['map', 'sat']),
     mapOverlay: PropTypes.oneOf(['skl', 'trf', 'skl,trf']),
-    width: PropTypes.number,
-    height: PropTypes.number,
+    width: PropTypes.any,
+    height: PropTypes.any,
     apiKey: PropTypes.string,
     lang: PropTypes.oneOf(['ru_RU', 'en_US', 'ru_UA', 'uk_UA', 'tr_TR']),
     markCenter: PropTypes.bool
@@ -47,7 +47,7 @@ export default class YandexMapStatic extends Component {
       +'&spn='+p.lonDelta+','+p.latDelta
       +'&l='+this._joinNonEmpty([p.mapType, p.mapOverlay])
       +'&lang='+p.lang
-      +'&key='+p.key
+      +'&key='+p.apiKey
 
     if(p.markCenter){
       url+='&pt='+p.lon+','+p.lat+',pm2rdl';
