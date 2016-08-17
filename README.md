@@ -2,6 +2,7 @@
 A React Native component which shows a static image from Google or Yandex maps for the specified coordinates with optional markers.
 
 [![npm version](https://badge.fury.io/js/react-native-staticmap.svg)](https://badge.fury.io/js/react-native-staticmap)
+[![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg?maxAge=2592000)]()
 
 ## Installation
 
